@@ -1,0 +1,64 @@
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csprojAssemblyReference.cache
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\bin\Debug\NetworkCommsDotNetComplete.dll
+C:\Users\honza\source\repos\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csprojAssemblyReference.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\OneDrive - Smíchovská střední průmyslová škola\PVA-Projekt\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csprojAssemblyReference.cache
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\bin\Debug\NetworkCommsDotNetComplete.dll
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+F:\PLOCHA\BattleshipsGame\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\bin\Debug\NetworkCommsDotNetComplete.dll
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+F:\PLOCHA\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csprojAssemblyReference.cache
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\thewe\Desktop\BattleshipsGame-FINAL-3\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\bin\Debug\NetworkCommsDotNetComplete.dll
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csprojAssemblyReference.cache
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+F:\PLOCHA\BattleshipsGame-FINAL-4\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.AssemblyReference.cache
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb

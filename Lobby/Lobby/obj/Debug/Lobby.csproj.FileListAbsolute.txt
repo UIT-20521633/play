@@ -1,0 +1,36 @@
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\bin\Debug\Lobby.exe.config
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\bin\Debug\Lobby.exe
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\bin\Debug\Lobby.pdb
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.csproj.AssemblyReference.cache
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.csproj.SuggestedBindingRedirects.cache
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.Properties.Resources.resources
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.csproj.GenerateResource.cache
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.csproj.CoreCompileInputs.cache
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.exe
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.pdb
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.Lobby.resources
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.Bảng_lựa_chọn.resources
+C:\Users\qmh18\Desktop\Learn\Project\BattleShip\Lobby\Lobby\obj\Debug\Lobby.Play.resources
+C:\Users\DELL\Downloads\Lobby\Lobby\bin\Debug\Lobby.exe.config
+C:\Users\DELL\Downloads\Lobby\Lobby\bin\Debug\Lobby.exe
+C:\Users\DELL\Downloads\Lobby\Lobby\bin\Debug\Lobby.pdb
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.Bảng_lựa_chọn.resources
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.Lobby.resources
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.Play.resources
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.Properties.Resources.resources
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.csproj.GenerateResource.cache
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.exe
+C:\Users\DELL\Downloads\Lobby\Lobby\obj\Debug\Lobby.pdb
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.csproj.AssemblyReference.cache
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.Bảng_lựa_chọn.resources
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.Lobby.resources
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.Play.resources
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.Properties.Resources.resources
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.csproj.GenerateResource.cache
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.exe
+C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.pdb
