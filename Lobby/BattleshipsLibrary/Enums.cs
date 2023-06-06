@@ -34,13 +34,13 @@ namespace BattleshipsLibrary
         [Description("Không có gì được chọn!")]
         None = 0,
 
-        [Description("Kẻ huỷ diệt")]
+        [Description("Tàu khu trục")]
         Destroyer = 1,
 
-        [Description("tàu ngầm")]
+        [Description("Tàu ngầm")]
         Submarine = 2,
 
-        [Description("tàu tuần dương")]
+        [Description("Tàu tuần dương")]
         Cruiser = 3,
 
         [Description("Tàu chiến")]

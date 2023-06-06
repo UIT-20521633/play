@@ -107,7 +107,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\battleships-csharp-master\source\BattleshipsLibrary\BattleshipsLibrary.csproj">
+    <ProjectReference Include="..\BattleshipsLibrary\BattleshipsLibrary.csproj">
       <Project>{9e01c4c2-44e3-4953-a2f7-277f639e8d5d}</Project>
       <Name>BattleshipsLibrary</Name>
     </ProjectReference>

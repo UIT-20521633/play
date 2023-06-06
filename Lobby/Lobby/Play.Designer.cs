@@ -254,7 +254,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox4.TabIndex = 12;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+         
             // 
             // button2
             // 
@@ -667,6 +667,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(380, 365);
             this.tableLayoutPanel1.TabIndex = 42;
+         
             // 
             // label49
             // 
@@ -1093,7 +1094,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Play";
             this.Text = "Play";
-            this.Load += new System.EventHandler(this.Play_Load);
+         
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
