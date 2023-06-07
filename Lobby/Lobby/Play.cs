@@ -329,23 +329,23 @@ namespace Lobby
 
         #region /*//Ủy quyền con trỏ gói tin//*/
 
-        //Začátek hry
+        //Bắt đầu trò chơi
         private void GameStartInfoDelegatePointer(PacketHeader packetheader, Connection connection, GameStartInfo info)
         {
             _gameId = info.GameId;
 
             if (info.IsStarting)
             {
-                MessageBox.Show("Hra začala, jste na řadě!");
+                MessageBox.Show("Trò chơi đã bắt đầu, đến lượt bạn!");
                 Invoke(new NextTurnDelegate(NextTurn), true);
             }
             else
             {
-                MessageBox.Show("Hra začala, protihráč střílí první!");
+                MessageBox.Show("Trò chơi đã bắt đầu, đối thủ bắn trước!");
             }
         }
 
-        //Update po střelbě
+        //Cập nhật sau khi chụp
         private void GamePositionUpdateInfoDelegatePointer(PacketHeader packetheader, Connection connection, GamePositionUpdateInfo info)
         {
             if (info.UpdateType == UpdateType.PlayerGrid)
@@ -372,14 +372,14 @@ namespace Lobby
         //Konec hry
         private void EndGameInfoDelegatePointer(PacketHeader packetheader, Connection connection, bool isWinner)
         {
-            MessageBox.Show(isWinner ? "Vyhráli jste!" : "Prohráli jste!");
+            MessageBox.Show(isWinner ? "Bạn đã thắng!" : "Bạn đã thua!");
             Invoke(new GoToLobbyFormDelegate(GoToLobbyForm));
         }
 
         //Odpojení protivníka
         private void DisconnectDelegatePointer(PacketHeader packetheader, Connection connection, bool incomingobject)
         {
-            MessageBox.Show("Protivník se odpojil!");
+            MessageBox.Show("Đối thủ đã ngắt kết nối!");
             Invoke(new GoToLobbyFormDelegate(GoToLobbyForm));
         }
 
@@ -387,14 +387,14 @@ namespace Lobby
 
         #region Form Eventy
 
-        //Zavření okna
+        //Đóng cửa sổ
         private void GameForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (_closeFromCode) return;
             NetworkComms.SendObject("Disconnect", ServerIp, ServerPort, EnemyName);
         }
 
-        //Odeslání umístění mých lodí serveru, připraven ke hře
+        // Đang gửi vị trí tàu của tôi đến máy chủ, sẵn sàng chơi
         private void btnSubmitGrid_Click(object sender, EventArgs e)
         {
             GameStartRequest gsr = new GameStartRequest(_occupiedPositions, EnemyIp, EnemyPort);
@@ -403,18 +403,18 @@ namespace Lobby
             AcceptButton = btnFire;
         }
 
-        //Výběr lodi podle tlačítek
+        //Lựa chọn tàu bằng các nút
         private void btnSelectDestroyer_Click(object sender, EventArgs e) => SelectShip(ShipType.Destroyer);
         private void btnSelectSubmarine_Click(object sender, EventArgs e) => SelectShip(ShipType.Submarine);
         private void btnSelectCruiser_Click(object sender, EventArgs e) => SelectShip(ShipType.Cruiser);
         private void btnSelectBattleship_Click(object sender, EventArgs e) => SelectShip(ShipType.Battleship);
         private void btnSelectCarrier_Click(object sender, EventArgs e) => SelectShip(ShipType.Carrier);
 
-        //Výběr lodi
+        //Chọn tàu
         private void SelectShip(ShipType type)
         {
             _selectedShipType = type;
-            rtbInfo.Text = $"Vybráno: {Enums.GetDescription(_selectedShipType)}\nKlikněte na první pozici";
+            rtbInfo.Text = $"Đã chọn: {Enums.GetDescription(_selectedShipType)}\nBấm vào vị trí đầu tiên";
         }
 
         //Útok
@@ -429,22 +429,23 @@ namespace Lobby
             }
             else
             {
-                MessageBox.Show("Nejdříve musíte vybrat pozici!");
+                MessageBox.Show("Đầu tiên bạn phải chọn một vị trí!");
             }
         }
 
-        //Aktualizace labelů při spuštění
+        // Đầu tiên bạn phải chọn một vị trí!
         private void GameForm_Shown(object sender, EventArgs e)
         {
             lblMyWaters.Text += $" ({PlayerName})";
             lblEnemyWaters.Text += $" ({EnemyName})";
-            Text = $"Bitva (#{_gameId})";
+            Text = $"Trận đánh (#{_gameId})";
         }
+
 
         #endregion
 
-        
+    }
+
 }
 
-    }
-}
+
