@@ -34,3 +34,13 @@ C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.csproj.GenerateResou
 C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.csproj.CoreCompileInputs.cache
 C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.exe
 C:\Users\Nghia\Môn học\NT106\Lobby\Lobby\obj\Debug\Lobby.pdb
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.csproj.AssemblyReference.cache
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.Bảng_lựa_chọn.resources
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.Lobby.resources
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.Play.resources
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.Properties.Resources.resources
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.csproj.GenerateResource.cache
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.exe
+C:\Users\Nghia\Desktop\New folder\play\Lobby\Lobby\obj\Debug\Lobby.pdb

@@ -62,3 +62,10 @@ C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLi
 C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
 C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
 C:\Users\Nghia\Môn học\NT106\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.dll
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\bin\Debug\BattleshipsLibrary.pdb
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.AssemblyReference.cache
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.csproj.CopyComplete
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.dll
+C:\Users\Nghia\Desktop\New folder\play\Lobby\BattleshipsLibrary\obj\Debug\BattleshipsLibrary.pdb
