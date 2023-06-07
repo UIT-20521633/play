@@ -17,7 +17,7 @@ namespace BattleshipsLibrary
             Type enumNameType = enumName.GetType();
             MemberInfo[] memberInfo = enumNameType.GetMember(enumName.ToString());
             if ((memberInfo.Length > 0))
-            {
+            {    //Thuộc tính 
                 var _Attribs = memberInfo[0].GetCustomAttributes(typeof(System.ComponentModel.DescriptionAttribute), false);
                 if ((_Attribs.Count() > 0))
                 {
@@ -66,14 +66,14 @@ namespace BattleshipsLibrary
     // Kiểu đặt tàu
     public enum PlacementType
     {
-        Solo,
-        Horizontal,
-        Vertical,
-        Invalid,
-        Occupied
+        Solo,//Đấu
+        Horizontal,//Nằm ngang
+        Vertical,//Thẳng đứng
+        Invalid,//Không hợp lệ
+        Occupied//Chiếm lĩnh
     }
 
-    // Cập nhật lưới người chơi hoặc kẻ thù (chữ thập, vòng tròn)
+    // Cập nhật lưới người chơi hoặc kẻ thù (chữ X, O)
     public enum UpdateType
     {
         PlayerGrid,

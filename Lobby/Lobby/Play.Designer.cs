@@ -30,27 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play));
             this.label3 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnFire = new System.Windows.Forms.Button();
+            this.btnSubmitGrid = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pbSubmarine = new System.Windows.Forms.PictureBox();
+            this.pbCruiser = new System.Windows.Forms.PictureBox();
+            this.pbBattleship = new System.Windows.Forms.PictureBox();
+            this.pbCarrier = new System.Windows.Forms.PictureBox();
+            this.btnSelectCruiser = new System.Windows.Forms.Button();
+            this.btnSelectSubmarine = new System.Windows.Forms.Button();
+            this.btnSelectBattleship = new System.Windows.Forms.Button();
+            this.btnSelectCarrier = new System.Windows.Forms.Button();
+            this.btnSelectDestroyer = new System.Windows.Forms.Button();
+            this.pbDestroyer = new System.Windows.Forms.PictureBox();
             this.label50 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.rtbInfo = new System.Windows.Forms.RichTextBox();
+            this.panPlayer = new System.Windows.Forms.Panel();
+            this.tlpHeaderRows = new System.Windows.Forms.TableLayoutPanel();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -61,7 +61,7 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.tlpHeaderColumns = new System.Windows.Forms.TableLayoutPanel();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -72,11 +72,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tlpPlayerGrid = new System.Windows.Forms.TableLayoutPanel();
             this.label49 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblEnemyWaters = new System.Windows.Forms.Label();
+            this.panEnemy = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
@@ -98,20 +98,20 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.tlpEnemyGrid = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblMyWaters = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSubmarine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCruiser)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBattleship)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCarrier)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDestroyer)).BeginInit();
+            this.panPlayer.SuspendLayout();
+            this.tlpHeaderRows.SuspendLayout();
+            this.tlpHeaderColumns.SuspendLayout();
+            this.panEnemy.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -128,40 +128,40 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Loại thuyền";
             // 
-            // button5
+            // btnFire
             // 
-            this.button5.BackColor = System.Drawing.Color.Lime;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(968, 559);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(282, 43);
-            this.button5.TabIndex = 57;
-            this.button5.Text = "Bắn !!!";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnFire.BackColor = System.Drawing.Color.Lime;
+            this.btnFire.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFire.Location = new System.Drawing.Point(968, 559);
+            this.btnFire.Name = "btnFire";
+            this.btnFire.Size = new System.Drawing.Size(282, 43);
+            this.btnFire.TabIndex = 57;
+            this.btnFire.Text = "Bắn !!!";
+            this.btnFire.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnSubmitGrid
             // 
-            this.button6.BackColor = System.Drawing.Color.Lime;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.Location = new System.Drawing.Point(828, 559);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(134, 43);
-            this.button6.TabIndex = 58;
-            this.button6.Text = "Xác nhận";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnSubmitGrid.BackColor = System.Drawing.Color.Lime;
+            this.btnSubmitGrid.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmitGrid.ForeColor = System.Drawing.Color.Black;
+            this.btnSubmitGrid.Location = new System.Drawing.Point(828, 559);
+            this.btnSubmitGrid.Name = "btnSubmitGrid";
+            this.btnSubmitGrid.Size = new System.Drawing.Size(134, 43);
+            this.btnSubmitGrid.TabIndex = 58;
+            this.btnSubmitGrid.Text = "Xác nhận";
+            this.btnSubmitGrid.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnExit
             // 
-            this.button7.BackColor = System.Drawing.Color.Red;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(1256, 559);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 43);
-            this.button7.TabIndex = 59;
-            this.button7.Text = "Thoát";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnExit.BackColor = System.Drawing.Color.Red;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(1256, 559);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 43);
+            this.btnExit.TabIndex = 59;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -211,106 +211,106 @@
             this.label7.TabIndex = 8;
             this.label7.Text = "Tàu chiến(Cỡ 4)";
             // 
-            // pictureBox1
+            // pbSubmarine
             // 
-            this.pictureBox1.Image = global::Lobby.Properties.Resources.Pb2;
-            this.pictureBox1.Location = new System.Drawing.Point(27, 196);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.pbSubmarine.Image = global::Lobby.Properties.Resources.Pb2;
+            this.pbSubmarine.Location = new System.Drawing.Point(27, 196);
+            this.pbSubmarine.Margin = new System.Windows.Forms.Padding(2);
+            this.pbSubmarine.Name = "pbSubmarine";
+            this.pbSubmarine.Size = new System.Drawing.Size(151, 30);
+            this.pbSubmarine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbSubmarine.TabIndex = 9;
+            this.pbSubmarine.TabStop = false;
             // 
-            // pictureBox2
+            // pbCruiser
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(27, 278);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
+            this.pbCruiser.Image = ((System.Drawing.Image)(resources.GetObject("pbCruiser.Image")));
+            this.pbCruiser.Location = new System.Drawing.Point(27, 278);
+            this.pbCruiser.Margin = new System.Windows.Forms.Padding(2);
+            this.pbCruiser.Name = "pbCruiser";
+            this.pbCruiser.Size = new System.Drawing.Size(140, 30);
+            this.pbCruiser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbCruiser.TabIndex = 10;
+            this.pbCruiser.TabStop = false;
             // 
-            // pictureBox3
+            // pbBattleship
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(27, 360);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(140, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.pbBattleship.Image = ((System.Drawing.Image)(resources.GetObject("pbBattleship.Image")));
+            this.pbBattleship.Location = new System.Drawing.Point(27, 360);
+            this.pbBattleship.Margin = new System.Windows.Forms.Padding(2);
+            this.pbBattleship.Name = "pbBattleship";
+            this.pbBattleship.Size = new System.Drawing.Size(140, 30);
+            this.pbBattleship.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbBattleship.TabIndex = 11;
+            this.pbBattleship.TabStop = false;
             // 
-            // pictureBox4
+            // pbCarrier
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(27, 442);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(140, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
-         
+            this.pbCarrier.Image = ((System.Drawing.Image)(resources.GetObject("pbCarrier.Image")));
+            this.pbCarrier.Location = new System.Drawing.Point(27, 442);
+            this.pbCarrier.Margin = new System.Windows.Forms.Padding(2);
+            this.pbCarrier.Name = "pbCarrier";
+            this.pbCarrier.Size = new System.Drawing.Size(140, 30);
+            this.pbCarrier.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbCarrier.TabIndex = 12;
+            this.pbCarrier.TabStop = false;
             // 
-            // button2
+            // btnSelectCruiser
             // 
-            this.button2.Location = new System.Drawing.Point(177, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(55, 30);
-            this.button2.TabIndex = 53;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSelectCruiser.Location = new System.Drawing.Point(177, 261);
+            this.btnSelectCruiser.Name = "btnSelectCruiser";
+            this.btnSelectCruiser.Size = new System.Drawing.Size(55, 30);
+            this.btnSelectCruiser.TabIndex = 53;
+            this.btnSelectCruiser.Text = "+";
+            this.btnSelectCruiser.UseVisualStyleBackColor = true;
+      
             // 
-            // button1
+            // btnSelectSubmarine
             // 
-            this.button1.Location = new System.Drawing.Point(177, 179);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 30);
-            this.button1.TabIndex = 54;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSelectSubmarine.Location = new System.Drawing.Point(177, 179);
+            this.btnSelectSubmarine.Name = "btnSelectSubmarine";
+            this.btnSelectSubmarine.Size = new System.Drawing.Size(55, 30);
+            this.btnSelectSubmarine.TabIndex = 54;
+            this.btnSelectSubmarine.Text = "+";
+            this.btnSelectSubmarine.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSelectBattleship
             // 
-            this.button3.Location = new System.Drawing.Point(177, 343);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(55, 30);
-            this.button3.TabIndex = 55;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSelectBattleship.Location = new System.Drawing.Point(177, 343);
+            this.btnSelectBattleship.Name = "btnSelectBattleship";
+            this.btnSelectBattleship.Size = new System.Drawing.Size(55, 30);
+            this.btnSelectBattleship.TabIndex = 55;
+            this.btnSelectBattleship.Text = "+";
+            this.btnSelectBattleship.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSelectCarrier
             // 
-            this.button4.Location = new System.Drawing.Point(177, 424);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(55, 30);
-            this.button4.TabIndex = 56;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnSelectCarrier.Location = new System.Drawing.Point(177, 424);
+            this.btnSelectCarrier.Name = "btnSelectCarrier";
+            this.btnSelectCarrier.Size = new System.Drawing.Size(55, 30);
+            this.btnSelectCarrier.TabIndex = 56;
+            this.btnSelectCarrier.Text = "+";
+            this.btnSelectCarrier.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnSelectDestroyer
             // 
-            this.button8.Location = new System.Drawing.Point(177, 97);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(55, 30);
-            this.button8.TabIndex = 64;
-            this.button8.Text = "+";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnSelectDestroyer.Location = new System.Drawing.Point(177, 97);
+            this.btnSelectDestroyer.Name = "btnSelectDestroyer";
+            this.btnSelectDestroyer.Size = new System.Drawing.Size(55, 30);
+            this.btnSelectDestroyer.TabIndex = 64;
+            this.btnSelectDestroyer.Text = "+";
+            this.btnSelectDestroyer.UseVisualStyleBackColor = true;
             // 
-            // pictureBox5
+            // pbDestroyer
             // 
-            this.pictureBox5.Image = global::Lobby.Properties.Resources.Pb1;
-            this.pictureBox5.Location = new System.Drawing.Point(27, 114);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(151, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox5.TabIndex = 63;
-            this.pictureBox5.TabStop = false;
+            this.pbDestroyer.Image = global::Lobby.Properties.Resources.Pb1;
+            this.pbDestroyer.Location = new System.Drawing.Point(27, 114);
+            this.pbDestroyer.Margin = new System.Windows.Forms.Padding(2);
+            this.pbDestroyer.Name = "pbDestroyer";
+            this.pbDestroyer.Size = new System.Drawing.Size(151, 30);
+            this.pbDestroyer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbDestroyer.TabIndex = 63;
+            this.pbDestroyer.TabStop = false;
             // 
             // label50
             // 
@@ -324,58 +324,58 @@
             this.label50.TabIndex = 62;
             this.label50.Text = "Tàu khu trục(Cỡ 1)";
             // 
-            // richTextBox1
+            // rtbInfo
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.Aqua;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.Red;
-            this.richTextBox1.Location = new System.Drawing.Point(15, 469);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(217, 103);
-            this.richTextBox1.TabIndex = 65;
-            this.richTextBox1.Text = "Bấm (+) để chọn tàu";
+            this.rtbInfo.BackColor = System.Drawing.Color.Aqua;
+            this.rtbInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbInfo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.rtbInfo.ForeColor = System.Drawing.Color.Red;
+            this.rtbInfo.Location = new System.Drawing.Point(15, 469);
+            this.rtbInfo.Name = "rtbInfo";
+            this.rtbInfo.Size = new System.Drawing.Size(217, 103);
+            this.rtbInfo.TabIndex = 65;
+            this.rtbInfo.Text = "Bấm (+) để chọn tàu";
             // 
-            // panel1
+            // panPlayer
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.tableLayoutPanel4);
-            this.panel1.Controls.Add(this.tableLayoutPanel3);
-            this.panel1.Controls.Add(this.tableLayoutPanel1);
-            this.panel1.Location = new System.Drawing.Point(280, 88);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(484, 446);
-            this.panel1.TabIndex = 66;
+            this.panPlayer.BackColor = System.Drawing.Color.Transparent;
+            this.panPlayer.Controls.Add(this.tlpHeaderRows);
+            this.panPlayer.Controls.Add(this.tlpHeaderColumns);
+            this.panPlayer.Controls.Add(this.tlpPlayerGrid);
+            this.panPlayer.Location = new System.Drawing.Point(280, 88);
+            this.panPlayer.Name = "panPlayer";
+            this.panPlayer.Size = new System.Drawing.Size(484, 446);
+            this.panPlayer.TabIndex = 66;
             // 
-            // tableLayoutPanel4
+            // tlpHeaderRows
             // 
-            this.tableLayoutPanel4.ColumnCount = 1;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Controls.Add(this.label28, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.label29, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.label37, 0, 9);
-            this.tableLayoutPanel4.Controls.Add(this.label30, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.label36, 0, 8);
-            this.tableLayoutPanel4.Controls.Add(this.label31, 0, 3);
-            this.tableLayoutPanel4.Controls.Add(this.label35, 0, 7);
-            this.tableLayoutPanel4.Controls.Add(this.label32, 0, 4);
-            this.tableLayoutPanel4.Controls.Add(this.label34, 0, 6);
-            this.tableLayoutPanel4.Controls.Add(this.label33, 0, 5);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(24, 65);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 10;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.589041F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.50685F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(45, 365);
-            this.tableLayoutPanel4.TabIndex = 90;
+            this.tlpHeaderRows.ColumnCount = 1;
+            this.tlpHeaderRows.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpHeaderRows.Controls.Add(this.label28, 0, 0);
+            this.tlpHeaderRows.Controls.Add(this.label29, 0, 1);
+            this.tlpHeaderRows.Controls.Add(this.label37, 0, 9);
+            this.tlpHeaderRows.Controls.Add(this.label30, 0, 2);
+            this.tlpHeaderRows.Controls.Add(this.label36, 0, 8);
+            this.tlpHeaderRows.Controls.Add(this.label31, 0, 3);
+            this.tlpHeaderRows.Controls.Add(this.label35, 0, 7);
+            this.tlpHeaderRows.Controls.Add(this.label32, 0, 4);
+            this.tlpHeaderRows.Controls.Add(this.label34, 0, 6);
+            this.tlpHeaderRows.Controls.Add(this.label33, 0, 5);
+            this.tlpHeaderRows.Location = new System.Drawing.Point(24, 65);
+            this.tlpHeaderRows.Name = "tlpHeaderRows";
+            this.tlpHeaderRows.RowCount = 10;
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.589041F));
+            this.tlpHeaderRows.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.50685F));
+            this.tlpHeaderRows.Size = new System.Drawing.Size(45, 365);
+            this.tlpHeaderRows.TabIndex = 90;
             // 
             // label28
             // 
@@ -487,35 +487,35 @@
             this.label33.Text = "6";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tableLayoutPanel3
+            // tlpHeaderColumns
             // 
-            this.tableLayoutPanel3.ColumnCount = 10;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel3.Controls.Add(this.label17, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label16, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label15, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label14, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label13, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label12, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label11, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label10, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label9, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label8, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(72, 29);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(380, 35);
-            this.tableLayoutPanel3.TabIndex = 63;
+            this.tlpHeaderColumns.ColumnCount = 10;
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpHeaderColumns.Controls.Add(this.label17, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label16, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label15, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label14, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label13, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label12, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label11, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label10, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label9, 0, 0);
+            this.tlpHeaderColumns.Controls.Add(this.label8, 0, 0);
+            this.tlpHeaderColumns.Location = new System.Drawing.Point(72, 29);
+            this.tlpHeaderColumns.Name = "tlpHeaderColumns";
+            this.tlpHeaderColumns.RowCount = 1;
+            this.tlpHeaderColumns.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpHeaderColumns.Size = new System.Drawing.Size(380, 35);
+            this.tlpHeaderColumns.TabIndex = 63;
             // 
             // label17
             // 
@@ -637,37 +637,36 @@
             this.label8.Text = "D";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tableLayoutPanel1
+            // tlpPlayerGrid
             // 
-            this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel1.BackgroundImage")));
-            this.tableLayoutPanel1.ColumnCount = 10;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(72, 65);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 10;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(380, 365);
-            this.tableLayoutPanel1.TabIndex = 42;
-         
+            this.tlpPlayerGrid.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tlpPlayerGrid.BackgroundImage")));
+            this.tlpPlayerGrid.ColumnCount = 10;
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.Location = new System.Drawing.Point(72, 65);
+            this.tlpPlayerGrid.Margin = new System.Windows.Forms.Padding(0);
+            this.tlpPlayerGrid.Name = "tlpPlayerGrid";
+            this.tlpPlayerGrid.RowCount = 10;
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpPlayerGrid.Size = new System.Drawing.Size(380, 365);
+            this.tlpPlayerGrid.TabIndex = 1;
             // 
             // label49
             // 
@@ -680,58 +679,58 @@
             this.label49.TabIndex = 89;
             this.label49.Text = "(Đối thủ)";
             // 
-            // label2
+            // lblEnemyWaters
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(1041, 39);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 20);
-            this.label2.TabIndex = 68;
-            this.label2.Text = "Tên người chơi 2";
+            this.lblEnemyWaters.AutoSize = true;
+            this.lblEnemyWaters.BackColor = System.Drawing.Color.Transparent;
+            this.lblEnemyWaters.ForeColor = System.Drawing.Color.Red;
+            this.lblEnemyWaters.Location = new System.Drawing.Point(1041, 39);
+            this.lblEnemyWaters.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblEnemyWaters.Name = "lblEnemyWaters";
+            this.lblEnemyWaters.Size = new System.Drawing.Size(132, 20);
+            this.lblEnemyWaters.TabIndex = 68;
+            this.lblEnemyWaters.Text = "Tên người chơi 2";
             // 
-            // panel2
+            // panEnemy
             // 
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.tableLayoutPanel5);
-            this.panel2.Controls.Add(this.tableLayoutPanel2);
-            this.panel2.Controls.Add(this.tableLayoutPanel6);
-            this.panel2.Location = new System.Drawing.Point(828, 88);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(484, 446);
-            this.panel2.TabIndex = 90;
+            this.panEnemy.BackColor = System.Drawing.Color.Transparent;
+            this.panEnemy.Controls.Add(this.tableLayoutPanel3);
+            this.panEnemy.Controls.Add(this.tableLayoutPanel2);
+            this.panEnemy.Controls.Add(this.tlpEnemyGrid);
+            this.panEnemy.Location = new System.Drawing.Point(828, 88);
+            this.panEnemy.Name = "panEnemy";
+            this.panEnemy.Size = new System.Drawing.Size(484, 446);
+            this.panEnemy.TabIndex = 90;
             // 
-            // tableLayoutPanel5
+            // tableLayoutPanel3
             // 
-            this.tableLayoutPanel5.ColumnCount = 10;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel5.Controls.Add(this.label38, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label39, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label40, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label41, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label42, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label43, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label44, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label45, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label46, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.label47, 0, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(72, 27);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(380, 35);
-            this.tableLayoutPanel5.TabIndex = 91;
+            this.tableLayoutPanel3.ColumnCount = 10;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.78947F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.210526F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.Controls.Add(this.label38, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label39, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label40, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label41, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label42, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label43, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label44, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label45, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label46, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label47, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(72, 27);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(380, 35);
+            this.tableLayoutPanel3.TabIndex = 91;
             // 
             // label38
             // 
@@ -798,9 +797,9 @@
             this.label43.BackColor = System.Drawing.Color.Black;
             this.label43.ForeColor = System.Drawing.Color.Transparent;
             this.label43.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.label43.Location = new System.Drawing.Point(41, 0);
+            this.label43.Location = new System.Drawing.Point(44, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(32, 35);
+            this.label43.Size = new System.Drawing.Size(29, 35);
             this.label43.TabIndex = 57;
             this.label43.Text = "B";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -993,62 +992,62 @@
             this.label27.Text = "6";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tableLayoutPanel6
+            // tlpEnemyGrid
             // 
-            this.tableLayoutPanel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel6.BackgroundImage")));
-            this.tableLayoutPanel6.ColumnCount = 10;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(72, 65);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 10;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(380, 365);
-            this.tableLayoutPanel6.TabIndex = 42;
+            this.tlpEnemyGrid.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tlpEnemyGrid.BackgroundImage")));
+            this.tlpEnemyGrid.ColumnCount = 10;
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.Location = new System.Drawing.Point(72, 65);
+            this.tlpEnemyGrid.Margin = new System.Windows.Forms.Padding(0);
+            this.tlpEnemyGrid.Name = "tlpEnemyGrid";
+            this.tlpEnemyGrid.RowCount = 10;
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tlpEnemyGrid.Size = new System.Drawing.Size(380, 365);
+            this.tlpEnemyGrid.TabIndex = 0;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.richTextBox1);
-            this.panel3.Controls.Add(this.button8);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.rtbInfo);
+            this.panel3.Controls.Add(this.btnSelectDestroyer);
+            this.panel3.Controls.Add(this.btnSelectSubmarine);
+            this.panel3.Controls.Add(this.btnSelectCruiser);
+            this.panel3.Controls.Add(this.btnSelectBattleship);
+            this.panel3.Controls.Add(this.btnSelectCarrier);
             this.panel3.Location = new System.Drawing.Point(12, 17);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(244, 585);
             this.panel3.TabIndex = 91;
             // 
-            // label1
+            // lblMyWaters
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(422, 40);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Tên người chơi 1";
+            this.lblMyWaters.AutoSize = true;
+            this.lblMyWaters.BackColor = System.Drawing.Color.Transparent;
+            this.lblMyWaters.ForeColor = System.Drawing.Color.Red;
+            this.lblMyWaters.Location = new System.Drawing.Point(422, 40);
+            this.lblMyWaters.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblMyWaters.Name = "lblMyWaters";
+            this.lblMyWaters.Size = new System.Drawing.Size(132, 20);
+            this.lblMyWaters.TabIndex = 2;
+            this.lblMyWaters.Text = "Tên người chơi 1";
             // 
             // label48
             // 
@@ -1068,43 +1067,42 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1343, 614);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panEnemy);
             this.Controls.Add(this.label49);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.lblEnemyWaters);
+            this.Controls.Add(this.panPlayer);
+            this.Controls.Add(this.pbDestroyer);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.label48);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnSubmitGrid);
+            this.Controls.Add(this.btnFire);
+            this.Controls.Add(this.pbCarrier);
+            this.Controls.Add(this.pbBattleship);
+            this.Controls.Add(this.pbCruiser);
+            this.Controls.Add(this.pbSubmarine);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblMyWaters);
             this.Controls.Add(this.panel3);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Play";
             this.Text = "Play";
-         
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbSubmarine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCruiser)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBattleship)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCarrier)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDestroyer)).EndInit();
+            this.panPlayer.ResumeLayout(false);
+            this.tlpHeaderRows.ResumeLayout(false);
+            this.tlpHeaderColumns.ResumeLayout(false);
+            this.panEnemy.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -1114,29 +1112,29 @@
 
         #endregion
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnFire;
+        private System.Windows.Forms.Button btnSubmitGrid;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pbSubmarine;
+        private System.Windows.Forms.PictureBox pbCruiser;
+        private System.Windows.Forms.PictureBox pbBattleship;
+        private System.Windows.Forms.PictureBox pbCarrier;
+        private System.Windows.Forms.Button btnSelectCruiser;
+        private System.Windows.Forms.Button btnSelectSubmarine;
+        private System.Windows.Forms.Button btnSelectBattleship;
+        private System.Windows.Forms.Button btnSelectCarrier;
+        private System.Windows.Forms.Button btnSelectDestroyer;
+        private System.Windows.Forms.PictureBox pbDestroyer;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RichTextBox rtbInfo;
+        private System.Windows.Forms.Panel panPlayer;
         private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Label lblEnemyWaters;
+        private System.Windows.Forms.TableLayoutPanel tlpHeaderColumns;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
@@ -1147,8 +1145,8 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.TableLayoutPanel tlpPlayerGrid;
+        private System.Windows.Forms.TableLayoutPanel tlpHeaderRows;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label37;
@@ -1159,7 +1157,7 @@
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panEnemy;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
@@ -1171,8 +1169,8 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.TableLayoutPanel tlpEnemyGrid;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
@@ -1184,7 +1182,7 @@
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblMyWaters;
         private System.Windows.Forms.Label label48;
     }
 }
